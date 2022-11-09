@@ -1,0 +1,192 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.container {
+  max-width: 1033px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #87509c;
+  padding-top: 46px;
+  padding-bottom: 145px;
+  margin: 0 auto;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 76px;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 20px;
+  width: 416px;
+  height: 13px;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  color: #fff;
+  padding: 0 17px;
+}
+
+.nav-link:hover {
+  width: 90px;
+  height: 32px;
+  background-color: #643a79;
+  border-radius: 5px;
+}
+
+.header-content {
+  margin-top: 147px;
+  margin-bottom: 54px;
+}
+
+.heaedr-heading {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 906px;
+  color: #f7f3ea;
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.header-button {
+  display: flex;
+  justify-content: center;
+}
+
+.header-button button p {
+  padding: 20px 0;
+  width: 130px;
+  height: 14px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.header-button button {
+  margin-top: 54px;
+  display: flex;
+  justify-content: center;
+  width: 293px;
+  height: 70px;
+  background-color: #eb7d4b;
+  border-radius: 10px;
+}
+
+/* Services */
+
+.services {
+  background-color: #17c2a4;
+  padding-top: 119px;
+  padding-bottom: 145px;
+  margin: 0 auto;
+}
+
+.services-info-title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.services-info {
+  display: flex;
+  justify-content: center;
+}
+
+.services-info-title h2 {
+  display: flex;
+  justify-content: center;
+  height: 29px;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 21px;
+}
+hr {
+  margin-top: 21px;
+  width: 87px;
+  height: 4px;
+  background-color: #000000;
+  opacity: 0.15;
+  align-self: center;
+}
+
+.services-info h3 {
+  margin-top: 23px;
+  display: flex;
+  justify-content: center;
+  width: 603px;
+  height: 45px;
+  color: #ffffff;
+  font-family: 'Titillium Web';
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 26px;
+  text-align: center;
+}
+
+.services-container {
+  display: flex;
+  column-gap: 95px;
+  padding-top: 78px;
+}
+
+.services-block {
+  width: 192px;
+  height: 295px;
+}
+
+.services-block img{
+  margin: 0 30px 0 42px;
+}
+
+.services-block h2 {
+  width: 116px;
+  height: 18px;
+  color: #ffffff;
+  font-family: 'Titillium Web';
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 62px 38px 27px;
+}
+
+.services-block h3 {
+  width: 192px;
+  height: 64px;
+  color: #ffffff;
+  font-family: 'Titillium Web';
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+}
+ 
+.rocket {
+ height: 125px; 
+}
